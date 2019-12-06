@@ -113,7 +113,7 @@ ul.nostyle i {
   animation-name: scaleIn;
 }
 .header-expanded .header {
-  background-color: #000;
+  background-color: #F4F4F4;
   opacity: 0.9;
 }
 
@@ -237,7 +237,7 @@ body.header-expanded .nav-toggle {
 .nav {
     font-size: 14px;
     line-height: 20px;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     position: absolute;
     right: 5%;
@@ -251,7 +251,7 @@ body.header-expanded .nav-toggle {
     float: left;
 }
 .nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding: 9px 16px;
     display: block;
@@ -418,11 +418,11 @@ h2.section-title.wow.fadeInDown.animated {
 #footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
-  background: #555;
+  color: #000;
+  background: #F4F4F4;
 }
 #footer a {
-  color: #fff;
+  color: #000;
 }
 #footer a:hover {
   color: #45aed6;
@@ -465,7 +465,7 @@ h2.section-title.wow.fadeInDown.animated {
   opacity: 0;
   content: "\f103";
   font-family: fontawesome;
-  color:#fff;
+  color:#000;
   position: absolute;
   left: 20px;
   top:-10px;

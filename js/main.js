@@ -3,7 +3,7 @@ jQuery(function($) {'use strict';
 	$('a.navbar-brand').on('click', function(){
 		var domain = window.location.origin;
 		if (domain == 'http://localhost') {
-			domain = domain + '/flashcoin';
+			domain = domain + '/wecoin';
 		}
 		window.location.href = domain;
 	});
@@ -25,7 +25,7 @@ jQuery(function($) {'use strict';
 			sessionStorage.setItem("pageelement", hashtag);
 			var domain = window.location.origin;
 			if (domain == 'http://localhost') {
-				domain = domain + '/flashcoin/';
+				domain = domain + '/wecoin/';
 			}
 			window.location.href = domain+'#'+hashtag;
 		} else {
